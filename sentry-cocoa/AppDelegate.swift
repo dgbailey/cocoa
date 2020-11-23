@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         SentrySDK.start { options in
-            options.dsn = "https://cdc559058f7440889c5eb33c55dbbcf3@o87286.ingest.sentry.io/5529240"
+            options.dsn = "https://2c756d7335ff4ce18f0efcdb9f168cd3@o87286.ingest.sentry.io/5529507"
             options.debug = true
             options.environment = "Production"
             options.enableAutoSessionTracking = true
